@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Operation Defense Healer ?",
+        "answer_1": "Finka",
+        "answer_2": "Doc",
+        "answer_3": "Somke",
+        "answer_4": "Muzzie",
+        "right_answer":"Doc"
+    },
+    {
+        "title": "Toxic Defense Operator  ?",
+        "answer_1": "Twitch",
+        "answer_2": "Echo",
+        "answer_3": "Clash",
+        "answer_4": "Thatcher",
+        "right_answer":"Clash"
+    },
+    {
+        "title": "Who is the new  operator ?",
+        "answer_1": "Grim",
+        "answer_2": "Echo",
+        "answer_3": "Hibbana",
+        "answer_4": "Ram",
+        "right_answer":"Ram"
+    },
+    {
+        "title": "What character can use a chemical grenade ?",
+        "answer_1": "Smoke",
+        "answer_2": "Ash",
+        "answer_3": "Thatcher",
+        "answer_4": "doc",
+        "right_answer":"Smoke"
+    },
+    {
+        "title": "Who is the most hated character ?",
+        "answer_1": "Tachanka",
+        "answer_2": "Montange",
+        "answer_3": "Blitz",
+        "answer_4": "Finka",
+        "right_answer":"Tachanka"
+    },
+    {
+        "title": "Which is best on the S.A.S ?",
+        "answer_1": "Mute",
+        "answer_2": "Thatcher",
+        "answer_3": "Sledge",
+        "answer_4": "Smoke",
+        "right_answer":"Sledge"
+    },
+    {
+        "title": "Who is the best fbi charachter ?",
+        "answer_1": "Montange",
+        "answer_2": "Pulse",
+        "answer_3": "Glaz",
+        "answer_4": "Smoke",
+        "right_answer":"Pulse"
+    },
+    {
+        "title": "a character with shocking traps ?",
+        "answer_1": "Lion",
+        "answer_2": "Bandit",
+        "answer_3": "Kaid",
+        "answer_4": "Gridlock",
+        "right_answer":"Gridlock"
+    },
+    {
+        "title": "A character that takes the attackers drones?",
+        "answer_1": "Mute",
+        "answer_2": "Cavira",
+        "answer_3": "Muzzie",
+        "answer_4": "Fuze",
+        "right_answer":"Muzzie"
+    }
+]

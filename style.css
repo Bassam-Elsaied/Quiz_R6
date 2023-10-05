@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #186F65;
+}
+
+.quiz-container{
+    width: 800px;
+    margin: 20px auto;
+    background-color: #B5CB99;
+    padding: 15px;
+}
+@media (max-width:850px) {
+    .quiz-container{
+        width: 600px;
+        padding: 10px;
+        margin:  auto;
+    }
+}
+
+.quiz-container .quiz-box{
+    display: flex;
+    background-color: #FCE09B;
+    padding: 20px;
+}
+
+.quiz-container .quiz-box .category{
+    flex: 1;
+}
+.quiz-container .quiz-box .count{
+    flex: 1;
+    text-align: right;
+}
+.quiz-container .quiz-area{
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #FCE09B;
+}
+.quiz-container .quiz-area h2{
+    margin: 0;
+}
+.quiz-container .answers-area{
+    background-color: #FCE09B;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+
+.quiz-container .answer input[type="radio"]{
+    appearance: none;
+}
+
+.quiz-container .answer input[type="radio"]:checked + label {
+    color: #B2533E;
+    border: 2px solid #B2533E;
+}
+
+.quiz-container .answer label{
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    display: flex;
+    background-color:#B5CB99 ;
+    height: 40px;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+    border: 2px solid #186F65;
+}
+.submit-button{
+    width: 100%;
+    background-color: #B2533E;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.bullets{
+    border-top: 1px solid #186F65 ;
+    margin-top: 20px;
+    background-color: #FCE09B;
+    display: flex;
+    padding: 20px;
+}
+
+.bullets .spans {
+    display: flex;
+    flex: 1;
+}
+.bullets .spans span{
+    width: 20px;
+    height: 20px;
+    background-color: #186F65;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 5px;
+}
+.bullets .spans span.on{
+    background-color: #B2533E;
+}
+.count_down{
+    color: #dc0a0a;
+    font-weight: bold;
+}
+.resaults span{
+    font-weight: bold;
+}
+.resaults span.bad{
+    color: #dc0a0a;
+}
+.resaults span.good{
+    color: #009688;
+}
+.resaults span.perfect{
+    color: #0075ff;
+}
+.resaults{
+    text-align: center;
+    font-weight: bold;
+}
+.resaults img{
+    margin: 10px;
+    
+}
